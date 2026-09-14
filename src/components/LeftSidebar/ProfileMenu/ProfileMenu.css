@@ -1,0 +1,30 @@
+.profile-menu {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 8px 0;
+    box-sizing: border-box;
+}
+
+.profile-menu-item {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 18px;
+    box-sizing: border-box;
+    color: #555;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.profile-menu-item svg {
+    width: 20px;
+    height: 20px;
+}
+
+.profile-menu-item:hover {
+    background-color: #f3f3f3;
+    color: #222;
+}

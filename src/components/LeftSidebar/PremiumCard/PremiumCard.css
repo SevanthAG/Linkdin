@@ -1,0 +1,38 @@
+.premium-card {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 14px 18px;
+    box-sizing: border-box;
+}
+
+.premium-text {
+    margin: 0 0 6px;
+
+    font-size: 14px;
+
+    color: #666;
+}
+
+.premium-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+}
+
+
+.premium-icon {
+    width: 16px;
+    height: 16px;
+    fill: #d99a00;
+    color: #d99a00;
+}
+
+.premium-link:hover {
+    text-decoration: underline;
+}

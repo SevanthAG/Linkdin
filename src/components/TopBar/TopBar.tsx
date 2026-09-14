@@ -22,7 +22,6 @@ const TopBar = () => {
 
             <div className="top-bar-content">
 
-                {/* LEFT SIDE */}
                 <div className="top-bar-left">
 
                     <img
@@ -36,7 +35,6 @@ const TopBar = () => {
                 </div>
 
 
-                {/* RIGHT SIDE */}
                 <div className="top-bar-right">
 
                     <TopBarElement
