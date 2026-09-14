@@ -1,11 +1,14 @@
 .top-bar-element {
-    height: 58px;
+    height: 60px;
+    min-width: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
     cursor: pointer;
+    color: #666;
+    transition: color 0.15s ease;
 }
 
 .top-bar-element-icon {
@@ -22,5 +25,26 @@
 .top-bar-element-title {
     font-size: 12px;
     margin-top: 2px;
+
     white-space: nowrap;
+}
+
+.top-bar-element.active {
+    color: #000;
+}
+
+.top-bar-element.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #000;
+}
+
+
+
+.top-bar-element:hover {
+    color: #000;
 }

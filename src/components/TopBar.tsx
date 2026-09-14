@@ -22,7 +22,7 @@ const TopBar = () => {
 
             <div className="top-bar-content">
 
-                {/* LEFT */}
+                {/* LEFT SIDE */}
                 <div className="top-bar-left">
 
                     <img
@@ -36,12 +36,13 @@ const TopBar = () => {
                 </div>
 
 
-                {/* RIGHT */}
+                {/* RIGHT SIDE */}
                 <div className="top-bar-right">
 
                     <TopBarElement
                         title="Home"
                         icon={<House />}
+                        active={true}
                     />
 
                     <TopBarElement
